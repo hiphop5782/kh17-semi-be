@@ -4,5 +4,6 @@ import lombok.Data;
 
 @Data
 public class CountryDto {
-	private int CountryNo;
+	private int countryNo;
+	private String countryName;
 }
