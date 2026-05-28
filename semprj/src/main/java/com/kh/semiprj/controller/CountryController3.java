@@ -10,7 +10,7 @@ public class CountryController3 {
 	@RequestMapping("/list")
 	public String list() {
 
-		return "country/list";
+		return "country/list12";
 	}
 	
 
