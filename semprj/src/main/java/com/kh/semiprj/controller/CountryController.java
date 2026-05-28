@@ -13,9 +13,10 @@ public class CountryController {
 		return "country/list";
 	}
 	
+
 	@RequestMapping("/conflict")
 	public String conflict() {
 		return "conflict test2";
 	}
-	
+
 }
