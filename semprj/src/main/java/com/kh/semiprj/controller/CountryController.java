@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CountryController {
 	@RequestMapping("/conflict")
 	public String conflict() {
-		return "conflict test2";
+		return "저 왜 충돌이 안나요";
 	}
 }
