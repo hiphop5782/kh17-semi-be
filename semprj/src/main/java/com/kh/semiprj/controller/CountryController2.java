@@ -7,16 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class CountryController2 {
 
 
-	@RequestMapping("/list")
+	@RequestMapping("/one")
 	public String list() {
 
-		return "country/list";
-	}
-	
-
-	@RequestMapping("/conflict")
-	public String conflict() {
-		return "저 왜 충돌이 안나요123";
+		return "one";
 	}
 
 }
