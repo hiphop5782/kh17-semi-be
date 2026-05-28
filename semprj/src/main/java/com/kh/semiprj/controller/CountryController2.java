@@ -4,18 +4,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CountryController {
+public class CountryController2 {
 
 
-	@RequestMapping("/list")
+	@RequestMapping("/one")
 	public String list() {
 
-		return "country/list";
+		return "one";
 	}
-	
-	@RequestMapping("/conflict")
-	public String conflict() {
-		return "conflict test2";
-	}
-	
+
 }
