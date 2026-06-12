@@ -8,7 +8,8 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Jenkins install complete!";
+		//return "Jenkins install complete!";
+		return "Edit code";
 	}
 	
 }
